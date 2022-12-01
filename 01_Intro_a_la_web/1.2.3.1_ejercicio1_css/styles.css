@@ -1,0 +1,43 @@
+body {
+    color: #a2d2ff;
+    background-color: #333533;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+img {
+    width: 400px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #8338ec;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #f15bb5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+.datos {
+    color: #fcf6bd;
+    font-weight: bold;
+}
+
+.heroes {
+    font-size: 22px;
+    text-decoration-line: underline;
+    color: red;
+}
+
+.especial {
+    color: #FFF;
+    background-color:#000;
+    font-style: italic;
+}
+
