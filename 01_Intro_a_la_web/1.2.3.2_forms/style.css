@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    font-size: inherit;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  body{
+    background-image: url("assets/7c7050e52885e1f5120e0e0411cce3ac.jpg");
+  }
+
+ .header, .main, .footer{
+    margin: 24px;
+  }
+
+  .input_label{
+    margin: 12px;
+    /*height: 300px;*/
+  }
+
+  .label, .input{
+    display: block;
+  }
+
+  .input, table{
+    margin: auto;
+  }
+/*
+  .input{
+    margin-left: 510px;
+  } */
+
+ 
