@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+  }
+
+
+body {
+    background-color: #F4F4F4;
+}
+
+header {
+    height: 127px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    margin: 24px;
+}
+
+.main {
+    display:flex
+}
+
+.hijo {
+    background-color: #D9D9D9;  
+    height: 80vh;
+    margin: 48px;
+}
+
+.uno {
+    flex-grow: 2;
+}
+
+.dos {
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 1024px){ 
+    .main{
+        flex-direction: column;
+    }
+    .uno {
+        height: 570px;
+    }
+}
+@media screen and (max-width: 768px){ }
+
+@media screen and (max-width: 480px){
+    .hijo {
+         
+        height: 80vh;
+       
+    }
+ }
+
+@media screen and (max-width:320px){ }
+
