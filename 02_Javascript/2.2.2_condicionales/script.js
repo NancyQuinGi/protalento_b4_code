@@ -1,4 +1,3 @@
-
 /* EJERCICIO 1 Solicitar al usuario que responda a la pregunta (“¿Eres bellísimo/a?”) encaso de contestar sí, responder “Ciertamente”, en caso de contestar no, responder: “No te creo”.*/
 
 let respuesta = prompt('¿Eres Bellisimo/a?');
@@ -15,6 +14,27 @@ if (respuesta == 'si' || respuesta == 'yes' || respuesta == 'sí') {
   alert('Solo te di dos opciones');
 }
 /* EJERCICIO 2 Solicitar al usuario un número, y determinar si es divisible entre dos o no. Mostrando al usuario un mensaje de “X número es divisible entre 2” o “X número.*/
+
+function esDivisible1(){
+    const numeroUsuarioPalabra = prompt('Dame un número y te dire si es divisible por 2');
+    console.log (typeof numeroUsuarioPalabra);
+    //console.log (parseFloat(numeroUsuarioPalabra / 2));
+    //console.log (parseFloat(numeroUsuarioPalabra % 2)); // divisible es 0 en el modulo, y si es 1  no es divisible
+    if (parseFloat(numeroUsuarioPalabra % 2)=== 0){
+        return'Es divisible';
+    } else{
+        return ' No Es divisible';
+    }
+}
+
+function esDivisible2(numeroIngresado){
+    if (parseFloat(numeroIngresado % 2)=== 0){
+        return'Es divisible';
+    } else{
+        return ' No Es divisible';
+    }
+}
+
 
 const numeroUsuarioPalabra = prompt('Dame un número y te dire si es divisible por 2');
 console.log (typeof numeroUsuarioPalabra);
