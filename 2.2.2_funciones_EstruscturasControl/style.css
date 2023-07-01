@@ -1,0 +1,28 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Titulo{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.texto{
+    font-size: large;
+}
+
+.contenedor{
+    position: relative;
+    margin: 1%;
+    padding: 1%;
+}
+
+
+footer {
+    top: 0cqmax;
+    position: relative;
+    top: auto;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+  }

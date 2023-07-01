@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="Titulo">Funciones Estruturas de Control</h1>
+        <h2 class="Titulo">While</h2>
+    </header>
+    <main>
+        <div class="contenedor">
+            
+            <p class="texto"> <span> 1: </span> Crea un programa que pregunte al usuario un número. Mostrar los números que son múltiplos de 5 desde 1 hasta el número introducido por el usuario.
+            </p>
+            <label label id="label">Digite un número: </label>
+            <input id="input-ejercicio-1" type="number" class="input"/>
+            <button class="botonEnviar1" type="submit" onclick="ejercicio1()">Enviar</button>
+            <h5 class="result"> Los Multiplos de 5 en el numero ingresado son: <span id="resultado-1" class="Resultado"></span></h5>
+                    
+        </div>
+        <div class="contenedor">
+            
+            <p class="texto"> <span> 2: </span> Crea un programa que solicite al usuario 2 números entre 1 y 50. Posteriormente mostrar en consola los números del 1 hasta el 50, pero añadir el mensaje “¡Lotería!” solo al mostrar los números indicados por el usuario.
+            </p>
+            <label id="label">Digite dos números: </label>
+            <input id="input-ejercicio-2-1" type="number" class="input" placeholder="Numero 1"/>
+            <input id="input-ejercicio-2-2" type="number" class="input2" placeholder="Numero 2"/>
+
+            <button class="botonEnviar2" type="submit" onclick="ejercicio2()">Enviar</button>
+            <h5 class="result"> Resultado: <span id="resultado-2"></span></h5>
+                    
+        </div>
+        <div class="contenedor">
+            
+            <p class="texto"> <span> 3: </span> Crea un programa que solicite al usuario números, si lo que este introduce es un número guardarlo en un arreglo. Para terminar el capturar el usuario debe ingresar el número 0. Finalmente mostrar la lista de números capturados en pantalla o en la consola.
+            </p>
+            <label id="label">Ingrese un número (ingrese 0 para terminar) </label>
+            <input id="input-ejercicio-3" type="number" class="input2" placeholder="Ingresa Numeros"/>
+            <button class="botonEnviar2" type="submit" onclick="ejercicio3()">Enviar</button>
+            <h5 class="result"> Resultado: <div id="resultado-3"></div></h5>
+                    
+        </div>
+        <div class="contenedor">
+            
+            <p class="texto"> <span> 4: </span> Crea un programa que solicite al usuario letras o palabras, si es así guardar el resultado. Para terminar de capturar el usuario no debe escribir valor alguno. Al terminar de capturar, mostrar en pantalla la concatenación de todas las palabras capturadas.
+            </p>
+            <label id="label">Ingrese una letra o palabra (deje vacío para terminar) </label>
+            <input id="input-ejercicio-4" type="string" class="input2" placeholder="Ingresa Palabras"/>
+            <button class="botonEnviar2" type="submit" onclick="ejercicio4()">Enviar</button>
+            <h5 class="result"> Resultado: <div id="resultado-4"></div></h5>
+                    
+        </div>
+        <div class="contenedor">
+            
+            <p class="texto"> <span> 5: </span> Crea un programa que solicite al usuario un día de la semana (ej: lunes, jueves, domingo, etc). El programa mostrará un mensaje personalizado para cada día de la semana por medio de un alert. Y seguirá pidiendo al usuario introducir otro día. En caso de que el día introducido sea domingo mostrar al usuario el mensaje “Ve a descansar” y terminar la captura de información.
+            </p>
+            <label id="label">Ingrese una letra o palabra (deje vacío para terminar) </label>
+            <input id="input-ejercicio-5" type="string" class="input2" placeholder="Ingresa Palabras"/>
+            <button class="botonEnviar2" type="submit" onclick="ejercicio4()">Enviar</button>
+            
+                    
+        </div>
+    </main>
+
+    <footer><h6>By Nancy</h6> </footer>
+    <script src="script.js"></script>
+</body>
+</html>
